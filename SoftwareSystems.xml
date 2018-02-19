@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<studyProgramme name="Programų sistemos">
+	<modules>
+		<module name="Semestro projektas" code="PR00B121">
+
+		</module>
+		<module name="Programų sistemų inžinerija" code="P175B015">
+			<preconditions>
+				<precondition>Mokėti programuoti</precondition>
+				<precondition>Žinoti kelias programavimo kalbas</precondition>
+			</preconditions>
+			<studyResults>
+				<studyResult description="Geba organizuoti programų sistemos kūrimo procesą">
+					<studyMethods>
+						<studyMethod>
+							Atvejo analizė
+						</studyMethod>
+					</studyMethods>
+					<assessmentMethods>
+						<assessmentMethod>
+							Individualus darbas
+						</assessmentMethod>
+					</assessmentMethods>
+				</studyResult>
+				<studyResult description="Geba surinkti ir specifikuoti reikalavimus programinei įrangai">
+					<studyMethods>
+						<studyMethod>Atvejo analizė</studyMethod>
+						<studyMethod>
+							Laboratoriniai darbai
+						</studyMethod>
+						<studyMethod>
+							Paskaita
+						</studyMethod>
+					</studyMethods>
+					<assessmentMethods>
+						<assessmentMethod>Laboratorinio darbo gynimas</assessmentMethod>
+						<assessmentMethod>Laboratorinio darbo savarankiškas atlikimas</assessmentMethod>
+					</assessmentMethods>
+				</studyResult>            
+			</studyResults>            
+		</module>
+	</modules>
+</studyProgramme>
