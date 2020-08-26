@@ -1,0 +1,35 @@
+Slide 1:
+In this video, I will talk about the so-called "traditional" waterfall model.
+
+Slide 2:
+The waterfall is a classic example of a linear, sequential model. Like a real waterfall that fills a lower level pool before flowing further – each phase must be completed before starting another.
+The model is rarely used nowadays, but it is called a father of all models, and it is necessary to understand this simple model before studying other models.
+The model was formally presented in the IEEE paper „Management the Development of Large System“ by Winston Royce. The idea of the article - was to present an iterative model that relies on the prototyping and Waterfall model served as an example of a flawed, non-working model. Two things facilitated the spread of a model: (1) at that time; there was a lack of easily understandable methodologies to govern software development, and (2) the Department of Defence included that simplistic model from the paper into standard MIL-STD-2167. Soon DoD updated the recommendations, but the waterfall model already has gone viral.
+
+Slide 3:
+Each activity in the waterfall model should finish completely before starting the new one. In the beginning, the requirements are specified, and the requirement specification documents are provided for a design phase. In a design phase, the architect creates the complete software system design in a similar way the architect creates an entire building scheme. Therefore it relates to a Big UpFront Design term. The created design is provided to the Implementation phase. An outcome is a software which is tested in a verification phase. After the product is verified and accepted – it is deployed, and the maintenance phase starts. Such a model is really hard to use practically; therefore, a slight modification is proposed for that model. 
+
+Slide 4:
+The modification includes feedback loops – from one phase, one can go back one phase. For example, if during a design phase, it becomes apparent that some functional or non-functional requirements are not realistic, then these requirements are negotiated with a customer and updated. If, during the implementation phase, a design mistake comes up, then the software design is tweaked, and implementation continues. In such a way, a design stays correct.
+
+Slide 5:
+There are several pre-conditions that need to be met so that the model could be implemented.
+The requirements should be known at the start of the project to do a big upfront design. The requirements should be stable to avoid changes in the latest stages.
+For that purpose, the software application domain must be well known.
+The technologies must be well understood to design everything upfront and avoid changes in later phases.
+These pre-conditions make it challenging to implement the waterfall model. Still, some researchers and practitioners discuss that this model is good for large systems engineering projects where a system is developed at several sites.
+In those circumstances, the plan-driven nature of the waterfall model helps coordinate the work.
+
+Slide 6:
+As mentioned before, it is very hard to implement such a process model because of the real-world conditions. 
+First of all – the requirements should be entirely known before designing the system, which is possible only in rare cases, and only a few business systems have stable requirements. 
+For the requirements to be known – the software application domain must be well-known for the developers. This can be true if developers are working for years in the same domain.
+The technologies are normally evolving very fast. Therefore the technologies that are well-understood might already be outdated.
+Also, there is the criticism regarding customer involvement. Because of the waterfall nature, the workable software can be demonstrated only in the latest stages of development. There is a risk that critical issues might be noticed by the customer only in the latest stages.
+
+Slide 7:
+The model is rarely used nowadays, but it is called a father of all models, and it is necessary to understand this simple model before studying other models.
+The waterfall is a classic example of a linear, sequential model. Each phase must be finished before another starts
+The model is mostly impractical – domain, technologies, and requirements must be well-known before the project starts. It is not flexible and lacks customer involvement.
+Some researchers and practitioners discuss that this model, at least partially, can be used for large systems engineering projects where a system is developed at several sites. In those circumstances, the plan-driven nature of the waterfall model helps coordinate the work.
+
